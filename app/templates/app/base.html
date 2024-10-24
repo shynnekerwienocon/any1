@@ -3,10 +3,14 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
-    <link rel="stylesheet" href="{% static 'css/base.css' %}"
+    <title>OCON</title>
+    <link rel="icon" href="{% static 'images/logo.ico' %}">
+    <link rel="stylesheet" href="{% static 'css/base.css' %}">
+    
 </head>
-<body>
+
+<body style="background-color: antiquewhite";>
+
     {% include 'app/navbar.html' %}
 
     {% block content %}
